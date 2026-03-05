@@ -1,0 +1,25 @@
+@define-color selected-text #d18ba2;
+@define-color text #f5f5d0;
+@define-color base #13131D;
+@define-color border #9f859f;
+@define-color foreground #f5f5d0;
+@define-color background #13131D;
+@define-color hover #9f859f;
+
+window .search-container,
+window .search {
+  background: alpha(@hover, 0.3);
+  color: @foreground;
+  border: 2px solid alpha(@border, 0.5);
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 4px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+window .box-wrapper {
+    border-radius: 6px;
+    box-shadow: 0 2px 12px alpha(@selected-text, 0.2);
+    backdrop-filter: blur(10px);
+}
