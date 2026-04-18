@@ -2,7 +2,7 @@
 opacity = 0.4
 
 [colors.primary]
-background = "#1a1a2e"
+background = "#131313"
 foreground = "#f5f5d0"
 dim_foreground = "#a1a2a7"
 bright_foreground = "#f5f5d0"
