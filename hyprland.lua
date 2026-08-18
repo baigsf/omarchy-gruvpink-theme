@@ -58,15 +58,3 @@ hl.animation({ leaf = "fadeSwitch", enabled = true, speed = 1.4, bezier = "flow"
 hl.animation({ leaf = "layersIn", enabled = true, speed = 1.5, bezier = "overshot", style = "popin 80%" })
 hl.animation({ leaf = "layersOut", enabled = true, speed = 1.3, bezier = "md3_accel", style = "popin 90%" })
 hl.animation({ leaf = "layers", enabled = true, speed = 1.5, bezier = "md3_standard" })
-
--- Blur behind Omarchy shell overlays (launcher/menu, notifications, OSD)
-hl.layer_rule({
-  match = { namespace = "^(omarchy-menu|omarchy-image-selector|omarchy-emojis|omarchy-clipboard)$" },
-  blur = true,
-  ignore_alpha = 0.1,
-})
-hl.layer_rule({
-  match = { namespace = "^(omarchy-notifications|omarchy-osd|omarchy-polkit)$" },
-  blur = true,
-  ignore_alpha = 0.2,
-})
