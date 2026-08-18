@@ -1,7 +1,7 @@
 [menu]
-# Translucent menu cards so the blurred background shows through.
+# Opaque menu cards.
 background                = "#131313"
-background-alpha          = 0.7
+background-alpha          = 1.0
 text                      = "#f5f5d0"
 border                    = "hyprland.active-border-foreground"
 border-alpha              = 1.0
