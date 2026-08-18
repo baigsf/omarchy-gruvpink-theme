@@ -1,0 +1,14 @@
+[menu]
+# Translucent menu cards so the blurred background shows through.
+background                = "#131313"
+background-alpha          = 0.7
+text                      = "#f5f5d0"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 1.0
+scrim                     = "#131313"
+scrim-alpha               = 0.5
+selected-background       = "#f5f5d0"
+selected-background-alpha = 0.08
+selected-text             = "#b8557d"
+selected-border           = "hyprland.active-border-foreground"
+selected-border-alpha     = 0.25

@@ -1,27 +1,36 @@
-accent = "#b8557d"              # Omarchy UI accent: links, focused controls, active states
-cursor = "#b8557d"              # Cursor color in terminal templates
-foreground = "#f5f5d0"          # Primary text color used across Omarchy templates
-background = "#131313"          # Default background for terminals and themed UI surfaces
+mode = "dark"
 
-selection_foreground = "#13131D" # Text color for selections
-selection_background = "#b8557d" # Selection background used in terminal templates
+accent = "#b8557d"
+selection = "#b8557d"
+muted = "#434353"
 
-# Base16-aligned 16-color palette.
-# Omarchy templates map these to terminal color0-15 and Base16 base00-base0F.
-color0  = "#13131D"  # base00 - Deep background; primary canvas for terminals
-color1  = "#EA90A8"  # base08 - Error/critical accents
-color2  = "#a6b2c7"  # base0B - Success/positive accents
-color3  = "#D18BA2"  # base0A - Warning/attention accents
-color4  = "#7c7ca8"  # base0D - Primary accent (links, active, emphasis)
-color5  = "#9f859f"  # base0E - Secondary accent (special highlights)
-color6  = "#919ab7"  # base0C - Informational accents
-color7  = "#e0e0e0"  # base05 - Default foreground for terminal text
+background = "#131313"
+dark_background = "#0e0e0e"
+darker_background = "#0a0a0a"
+lighter_background = "#1e1e2d"
 
-color8  = "#434353"  # base03 - Dim text, inactive UI, subtle borders
-color9  = "#d67a99"  # base08 - Bright/error variant
-color10 = "#d1d9e4"  # base0B - Bright/success variant
-color11 = "#e3aebf"  # base0A - Bright/warning variant
-color12 = "#bcbcd4"  # base0D - Bright primary accent variant
-color13 = "#bfadbf"  # base0E - Bright secondary accent variant
-color14 = "#d2d7e3"  # base0C - Bright informational accent variant
-color15 = "#ffffff"  # base07 - Highest-contrast text
+foreground = "#f5f5d0"
+dark_foreground = "#a1a2a7"
+light_foreground = "#e0e0e0"
+bright_foreground = "#f5f5d0"
+
+selection_foreground = "#13131D"
+
+red = "#EA90A8"
+yellow = "#D18BA2"
+orange = "#e3aebf"
+green = "#a6b2c7"
+cyan = "#919ab7"
+blue = "#7c7ca8"
+magenta = "#9f859f"
+
+bright_red = "#f6bfce"
+bright_yellow = "#e3aebf"
+bright_green = "#d1d9e4"
+bright_cyan = "#d2d7e3"
+bright_blue = "#bcbcd4"
+bright_magenta = "#bfadbf"
+
+# Hyprland border colors, also picked up by the Omarchy shell theme
+hyprland_active_border = "rgba(EA90A866)"
+hyprland_inactive_border = "rgba(43435360)"
